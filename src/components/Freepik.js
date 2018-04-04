@@ -1,5 +1,7 @@
 import React from 'react'
 import logo from '../images/logo.png'
+import fb from '../images/fb.png'
+import ig from '../images/ig.png'
 import barber from '../images/barber.jpg'
 import circuit from '../images/circuit.jpg'
 import fellaini from '../images/fellaini.gif'
@@ -15,12 +17,8 @@ const Freepik = () =>
   <div className="container">
     <Header />
     <Content />
-    <div className="redes">
-      Redes
-    </div>
-    <footer>
-      Footer
-    </footer>
+    <Social />
+    <Footer />
   </div>
 
 const Header = () =>
@@ -49,5 +47,21 @@ const Grid = () =>
       <img src={item} alt="img" width="261"  height ="227" key={item}/>
     )}
   </div>
+
+const Social = () =>
+  <div className="social">
+    <p className="p-social-freepik">
+      You can see more stuff on:
+    </p>
+    <div className="iconos">
+      <img src={fb} alt="fb" />
+      <img src={ig} alt="ig" />
+    </div>
+  </div>
+
+const Footer = () =>
+  <footer>
+
+  </footer>
 
 export default Freepik
