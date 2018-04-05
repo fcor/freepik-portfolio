@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from '../images/logo.png'
-import fb from '../images/fb.png'
-import ig from '../images/ig.png'
+import insta from '../images/insta.png'
+import behance from '../images/behance.png'
 import barber from '../images/barber.jpg'
 import circuit from '../images/circuit.jpg'
 import fellaini from '../images/fellaini.gif'
@@ -61,8 +61,12 @@ const Social = () =>
       You can see more stuff on:
     </p>
     <div className="iconos">
-      <img src={fb} alt="fb" />
-      <img src={ig} alt="ig" />
+      <a href="https://www.behance.net/vaneguitas" target="_blank"  rel="noopener noreferrer">
+        <img src={behance} alt="fb" width="40" />
+      </a>
+      <a href="https://www.instagram.com/vanegu1tas/" target="_blank"  rel="noopener noreferrer">
+        <img src={insta} alt="ig" width="40" />
+      </a>
     </div>
   </div>
 
