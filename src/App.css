@@ -121,3 +121,39 @@ footer{
   font-size: 30px;
   font-weight: bold;
 }
+
+@media screen and (max-width: 650px) {
+  .container{
+    width: 80vw;
+  }
+  .text-freepik{
+    margin: 25px 0 40px 0;
+  }
+  .p-freepik{
+    font-size: 16px;
+    margin: 0;
+    text-align: justify;
+  }
+  .grid-freepik{
+    margin: 0;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .grid-freepik img:nth-child(n+1){
+    margin: 0 0 35px 0;
+  }
+
+  .grid-freepik img:nth-child(n+7){
+    width: 261px;
+    height: 145px;
+  }
+
+  .grid-freepik img:last-child{
+    margin: 0;
+  }
+
+  .p-social-freepik{
+    font-size: 20px;
+  }
+}

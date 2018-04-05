@@ -40,7 +40,7 @@ const Text = () =>
     <p className="title-freepik">Freepik Portfolio</p>
     <p className="p-freepik">
       Hi! My name is <strong>Daniel Vanegas</strong>, I'm a graphic designer from Colombia, recently I have been working
-      on icons and flat designs. I saw the chance of working remotely with you and I decided to apply. I hope you like it
+      on icons and flat designs. I saw the chance of working remotely with you and I decided to apply. I hope you like it.
     </p>
   </div>
 
