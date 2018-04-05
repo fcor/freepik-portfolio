@@ -8,16 +8,19 @@ import fellaini from '../images/fellaini.gif'
 import led from '../images/led.gif'
 import megaman from '../images/megaman.jpg'
 import neiva from '../images/neiva.jpg'
-import pokemon from '../images/pokemon.jpg'
+import pokemon2 from '../images/pokemon2.jpg'
+// import pokemon from '../images/pokemon.jpg'
 import tmnt from '../images/tmnt.jpg'
 
-const images = [pokemon, fellaini, megaman, led, circuit, barber, tmnt, neiva]
+const images = [pokemon2, fellaini, megaman, led, circuit, barber, tmnt, neiva]
 
 const Freepik = () =>
-  <div className="container">
-    <Header />
-    <Content />
-    <Social />
+  <div>
+    <div className="container">
+      <Header />
+      <Content />
+      <Social />
+    </div>
     <Footer />
   </div>
 
@@ -44,7 +47,11 @@ const Text = () =>
 const Grid = () =>
   <div className="grid-freepik">
     {images.map((item) =>
-      <img src={item} alt="img" width="261"  height ="227" key={item}/>
+      <img src={item}
+           alt="img"
+           width="261"
+           height ="227"
+           key={item}/>
     )}
   </div>
 
@@ -61,7 +68,7 @@ const Social = () =>
 
 const Footer = () =>
   <footer>
-
+    Copyright © 2018
   </footer>
 
 export default Freepik

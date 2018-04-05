@@ -65,6 +65,16 @@ body{
   margin: 0 0 35px 0;
 }
 
+.grid-freepik img:nth-child(2), img:nth-child(4) {
+  width: 261px;
+  height: 227px;
+}
+
+.grid-freepik img:nth-child(8), img:nth-child(7){
+  width: 408px;
+  height: 227px;
+}
+
 .social{
   margin: 72px 74px 48px 74px;
   /* border: 1px solid red; */
@@ -93,6 +103,10 @@ body{
 footer{
   height: 40px;
   background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .coming-soon{
